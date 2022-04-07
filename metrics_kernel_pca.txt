@@ -1,0 +1,12 @@
+Kernel Principal Component Analysis
+Accuracy: 1.0
+Accuracy:               precision    recall  f1-score   support
+
+     class 0       1.00      1.00      1.00        14
+     class 1       1.00      1.00      1.00        16
+     class 2       1.00      1.00      1.00         6
+
+    accuracy                           1.00        36
+   macro avg       1.00      1.00      1.00        36
+weighted avg       1.00      1.00      1.00        36
+

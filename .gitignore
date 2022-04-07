@@ -127,4 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-/Wine.csv
+# /Wine.csv
+/kernel_pca_test.png
+/kernel_pca_train.png

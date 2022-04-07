@@ -1,0 +1,16 @@
+stages:
+  get_data:
+    cmd: echo "Save your data on bucket and fetch it here"
+  
+  train:
+    cmd: python kernel_pca.py
+    deps:
+    - kernel_pca.py
+    - Wine.csv
+    outs:
+    - kernel_pca_test.png
+    - kernel_pca_train.png
+    metrics:
+    - metrics_kernel_pca.txt:
+        cache: false
+  

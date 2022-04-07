@@ -1,0 +1,23 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python kernel_pca.py
+    deps:
+    - path: Wine.csv
+      md5: 76ec8d5d749f5bdf24a9aea70ff3fbfe
+      size: 11462
+    - path: kernel_pca.py
+      md5: 46a1884d4e84e7fae74f51f715570e84
+      size: 3580
+    outs:
+    - path: kernel_pca_test.png
+      md5: 0289f2afb255d9893f4acdd9b042560d
+      size: 27682
+    - path: kernel_pca_train.png
+      md5: 6792b05cac5e43c474c759c3179d23b6
+      size: 26565
+    - path: metrics_kernel_pca.txt
+      md5: 5a7a6ae4484a77ab60704cbb75616151
+      size: 441
+  get_data:
+    cmd: echo "Save your data on bucket and fetch it here"
