@@ -1,3 +1,3 @@
 import os
 
-os.system('curl https://raw.githubusercontent.com/akdsingh/cml_data/main/Wine.csv >> '+os.getcwd()+'/Wine.csv')
+os.system('curl https://raw.githubusercontent.com/akdsingh/cml/main/Wine.csv >> '+os.getcwd()+'/Wine.csv')
