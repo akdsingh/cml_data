@@ -17,6 +17,9 @@ jobs:
           git fetch --prune
           dvc metrics diff --show-md main > report.md
 
+          echo "## Metrics"
+          cat metrics_kernel_pca.txt --md >> report.md
+
           echo "## Training Data Plots"
           cml-publish kernel_pca_train.png --md >> report.md
 
