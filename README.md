@@ -1,2 +1,2 @@
 # cml
-Continuous Machine Learning
+Kernel Principal Component Analysis
