@@ -20,4 +20,12 @@ stages:
       md5: 5a7a6ae4484a77ab60704cbb75616151
       size: 441
   get_data:
-    cmd: echo "Save your data on bucket and fetch it here"
+    cmd: python get_data.py
+    deps:
+    - path: get_data.py
+      md5: f62f19bd76129b3b73e9684b450cc780
+      size: 122
+    outs:
+    - path: Wine.csv
+      md5: 76ec8d5d749f5bdf24a9aea70ff3fbfe
+      size: 11462

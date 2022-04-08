@@ -1,6 +1,10 @@
 stages:
   get_data:
-    cmd: echo "Save your data on bucket and fetch it here"
+    cmd: python get_data.py
+    deps:
+    - get_data.py
+    outs:
+    - Wine.csv
   
   train:
     cmd: python kernel_pca.py

@@ -130,3 +130,4 @@ dmypy.json
 # /Wine.csv
 /kernel_pca_test.png
 /kernel_pca_train.png
+/Wine.csv
